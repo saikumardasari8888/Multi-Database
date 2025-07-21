@@ -1,0 +1,46 @@
+{
+  "databases": [
+    {
+      "name": "database1",
+      "url": "jdbc:mysql://localhost:3306/db1",
+      "username": "root",
+      "password": "root",
+      "primary": true
+    },
+    {
+      "name": "database2",
+      "url": "jdbc:mysql://localhost:3306/db2",
+      "username": "root",
+      "password": "root",
+      "primary": false
+    },
+    {
+      "name": "database3",
+      "url": "jdbc:mysql://localhost:3306/db3",
+      "username": "root",
+      "password": "root",
+      "primary": false
+    },
+    {
+      "name": "database4",
+      "url": "jdbc:mysql://localhost:3306/db4",
+      "username": "root",
+      "password": "root",
+      "primary": false
+    },
+    {
+      "name": "database5",
+      "url": "jdbc:mysql://localhost:3306/db5",
+      "username": "root",
+      "password": "root",
+      "primary": false
+    }
+  ],
+  "connectionPool": {
+    "maximumPoolSize": 10,
+    "minimumIdle": 2,
+    "connectionTimeout": 30000,
+    "idleTimeout": 600000,
+    "maxLifetime": 1800000
+  }
+}
